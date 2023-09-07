@@ -1,0 +1,133 @@
+i{ 
+    color: green;
+}
+h1,h2{
+    border: 2px solid green;
+    display: inline-block;
+    height: 32px;
+    background-color: aquamarine                    ;
+}
+a{
+    display: block;
+}
+.width{
+    width: 90px;
+    margin: auto;
+    border: 2px solid blue;
+}
+.max_width{
+    max-width: 90px;
+    margin: auto;
+    border: 2px solid gray;
+}
+.sticky{
+    position: sticky;
+    bottom: 0;
+    border: 2px solid green;
+    background-color: palegoldenrod;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid red;
+    background-color: beige;
+}
+.box1{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    left: 100px;
+}
+.sub1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    margin: auto;
+    background-color: red;
+}
+
+.box2{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    left: 100px;
+}
+.sub2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+}
+.box3{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    left: 100px;
+}
+.sub3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+}
+.box4{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    left: 100px;
+}
+.sub4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: red;
+}
+
+.box5{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    left: 100px;
+}
+.sub5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-radius: 50px;
+    margin: auto;
+    background-color: red;
+}
+.box6{
+    position: static;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+}
+.box7{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    left: 400px;
+}
